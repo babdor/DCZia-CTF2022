@@ -1,0 +1,9 @@
+baseURL = "http://(alient-force-url)/"
+languageCode = "en-us"
+title = "(alien-force-name)"
+
+theme = "hyde"
+
+[params]
+    themeColor = "theme-base-0c"
+    description = "(alien-force-main-landing)"
