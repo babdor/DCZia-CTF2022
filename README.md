@@ -1,7 +1,24 @@
 # DCZia-CTF2022
 All things CTF for Ziacon 2022
+---
+* todo:
+* hosting of files / sites, do we want to toss into the cloud or localhost (we have my small server)
+    ctfd?
+    have a ctfj like instance for folks to use who don't have a vm set up?
+        make sure to have this all do-able via ubuntu. kali is messy.
+* prizes?
+    stickers
+    snacks?
+    lock picking set?
+* art?
+    might ask luna for some art?
+
+
 
 ---
+3-5 
+
+
 lets get a little theme going.
 
 since we are at space house this year maybe we can take some sci-fi inspired things and have a bit of fun.
@@ -80,3 +97,10 @@ this is just a fun way for some interaction and tasty coffee
 ## mattermost / zoom flag
 
 put a flag in the mattermost or maybe zoom chat?
+
+
+## lock picking box
+
+grab a small lockable box with a pickalbe lock on it
+
+flag and candy inside
