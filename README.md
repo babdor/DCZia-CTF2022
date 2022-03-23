@@ -6,7 +6,7 @@ lets get a little theme going.
 
 since we are at space house this year maybe we can take some sci-fi inspired things and have a bit of fun.
 
-the last few ctf's we've done are all super vauge and don't really give any hints. thats no fun and doesn't get folks intrested. Jeopardy are cool but giving things a bit of layering is cooler.
+the last few ctf's we've done are all super vauge and don't really give any hints. thats no fun and doesn't get folks intrested. Jeopardy style are fun but can be a bit repetitive. maybe we can do a bit of layering here and there.
 
 * space house is the HQ for a small group of folks looking to protect the planet from some sort of alien force that have come to take over.
 * we've broken into their comms and are looking around
@@ -25,24 +25,45 @@ User-agent: Googlebot
 Disallow: /(alien-message-system)
 
 User-agent: *
+Allow: /
 
 User-agent: (alient-force-name-user-agent)
 Allow: /(alien-message-system)
 ```
 
 solve would look something like:
-* using curl to spoof the alien user agent
-* f12 in browser to change user agent
+* using curl to spoof the alien user agent gets us their comms url. have a flag here.
+* f12 in browser to change user agent gets us their comms url. have a flag here.
 
-## robots.txt.2
+## robots.email
 ### learn to read an email header and or crack an attachment.
 
-after we get into the aliens comms we would find a bunch of messy files, there would be one that looks sort of normal 
+after we get into the aliens comms we would find a bunch of messy files, there would be one that looks sort of normal, turns out its saved email that one left behind
 
-# osint
+```txt
+email header:
+have some of the urls point to a url on the network when visited gives a flag
+
+attachment might be fun to have the attachment be an image with a flag
+
+```
+
+# osint scav hunt?
 
 # rev
 
-# forensics 
+# forensics
+
+## wireshark.1
+### learn a bit about wireshark and how to read them
+
+give a pcap file and ask some questions about it mabye have a flag hiding in a packet header, use tcp stream to give a file that needs to be looked at for a flag (jpg or png)
 
 # misc
+
+## cafe K
+### visit cafe K for a drink and chat, maybe he'll give you a flag?
+
+have Will give folks who get a drink a flag
+
+this is just a fun way for some interaction and tasty coffee 
