@@ -1,9 +1,9 @@
-baseURL = "http://(alient-force-url)/"
+baseURL = "http:///"
 languageCode = "en-us"
-title = "(alien-force-name)"
+title = "The Galactic Union"
 
 theme = "hyde"
 
 [params]
     themeColor = "theme-base-0c"
-    description = "(alien-force-main-landing)"
+    description = "The Galactic Union has come to Earth in search of friends!"
