@@ -3,9 +3,13 @@ All things CTF for Ziacon 2022
 ---
 * todo:
 * hosting of files / sites, do we want to toss into the cloud or localhost (we have my small server)
+
     ctfd?
+
     have a ctfj like instance for folks to use who don't have a vm set up?
+
         make sure to have this all do-able via ubuntu. kali is messy.
+        
 * prizes?
     stickers
     snacks?
