@@ -50,7 +50,16 @@ attachment might be fun to have the attachment be an image with a flag
 
 # osint scav hunt?
 
-# rev
+## hidden flags around space house.
+* one in the spaceship in the back
+* one the name of the person who did the art?
+* one on the small shelf in the dining room
+* hide on under some of the river rocks in the back yard
+* 
+
+# rev / pwn
+
+
 
 # forensics
 
@@ -67,3 +76,7 @@ give a pcap file and ask some questions about it mabye have a flag hiding in a p
 have Will give folks who get a drink a flag
 
 this is just a fun way for some interaction and tasty coffee 
+
+## mattermost / zoom flag
+
+put a flag in the mattermost or maybe zoom chat?
