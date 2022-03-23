@@ -9,7 +9,7 @@ All things CTF for Ziacon 2022
     have a ctfj like instance for folks to use who don't have a vm set up?
 
         make sure to have this all do-able via ubuntu. kali is messy.
-        
+
 * prizes?
     stickers
     snacks?
@@ -24,6 +24,8 @@ All things CTF for Ziacon 2022
 
 
 lets get a little theme going.
+
+aliens name: The Galactic Union
 
 since we are at space house this year maybe we can take some sci-fi inspired things and have a bit of fun.
 
