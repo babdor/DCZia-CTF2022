@@ -20,7 +20,7 @@ All things CTF for Ziacon 2022
 
 
 ---
-3-5 
+3-5 challs per topic maybe a some extra ones hiding here in there where they stop and talk to @bab for extra fun prizes
 
 
 lets get a little theme going.
