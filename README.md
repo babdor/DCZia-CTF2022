@@ -2,7 +2,7 @@
 All things CTF for Ziacon 2022
 ---
 * todo:
-* hosting of files / sites, do we want to toss into the cloud or localhost (we have my small server)
+    hosting of files / sites, do we want to toss into the cloud or localhost (we have my small server)
 
     ctfd?
 
