@@ -1,9 +1,0 @@
-baseURL = "http:///"
-languageCode = "en-us"
-title = "The Galactic Union"
-
-theme = "hyde"
-
-[params]
-    themeColor = "theme-base-0c"
-    description = "The Galactic Union has come to Earth in search of friends!"
