@@ -4,11 +4,15 @@ All things CTF for Ziacon 2022
 * todo:
     hosting of files / sites, do we want to toss into the cloud or localhost (we have my small server)
 
-    ctfd?
+    ctfd? https://github.com/CTFd/CTFd
+    https://www.hetzner.com/dedicated-rootserver
+    https://fly.io/docs/getting-started/python/
+    https://github.com/juice-shop/juice-shop as a backup
+    
 
     have a ctfj like instance for folks to use who don't have a vm set up?
 
-        make sure to have this all do-able via ubuntu. kali is messy.
+    make sure to have this all do-able via ubuntu. kali is messy.
 
 * prizes?
     stickers
@@ -16,7 +20,6 @@ All things CTF for Ziacon 2022
     lock picking set?
 * art?
     might ask luna for some art?
-
 
 
 ---
@@ -71,7 +74,7 @@ attachment might be fun to have the attachment be an image with a flag
 
 ```
 
-# osint scav hunt?
+# osint / scav hunt?
 
 ## hidden flags around space house.
 * one in the spaceship in the back
