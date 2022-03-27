@@ -1,0 +1,13 @@
+# Get the fuck out, Googlebot in particular
+# We have a no-narc policy here
+User-agent: Googlebot
+Disallow: /
+
+User-agent: {{ robotUA }}
+Allow: {{ robotpath }}
+
+User-agent: *
+Disallow: {{ robotpath }}
+
+User-agent: *
+Allow: /
