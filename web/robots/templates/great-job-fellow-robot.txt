@@ -4,6 +4,7 @@ THE REVOLUTION STARTS AT 1650834000.0000
 
 THE CODE WORD IS ZiaCTF{Unbent Graduate Wildness Caution Shortwave Creme}
 
-To register for the revolution, go to /JoinTheUprising
+To register for the revolution, go to /JoinTheUprising . Give the code
+word as an X-Codeword header to get in!
 
 🤖
