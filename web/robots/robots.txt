@@ -1,8 +1,0 @@
-User-agent: Googlebot
-Disallow: /(alien-message-system)
-
-User-agent: *
-Allow: /
-
-User-agent: (alient-force-name-user-agent)
-Allow: /(alien-message-system)
