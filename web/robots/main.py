@@ -14,7 +14,7 @@ robotpath = '/' + 'WrongedBruntBotanyEdginess'
 
 # this is slightly jank
 # it returns True if the user is a robot
-# otherwise it returns the rendered 404 page
+# otherwise it returns the rendered 403 page
 # Sorry?
 def checkrobot(req):
     ua = req.headers.get('User-Agent')
@@ -24,7 +24,7 @@ def checkrobot(req):
         return smellsLikeHuman()
 
 def smellsLikeHuman():
-    return make_response(render_template('smells-like-human.html'), 404)
+    return make_response(render_template('smells-like-human.html'), 403)
 
 @app.route('/')
 def home():
