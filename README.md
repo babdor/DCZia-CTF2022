@@ -120,3 +120,5 @@ flag and candy inside
 
 
 ## ROBOTO.ENCODO
+
+Check misc/roboto-encodo/README.md for a write-up and info
