@@ -14,6 +14,8 @@ All things CTF for Ziacon 2022
 
     make sure to have this all do-able via ubuntu. kali is messy.
 
+    hugo site is sort of done. `hugo server -D` to have a look at it. We might need to figure out DNS for real or move to aws. Unsure of the time it would take to do either -bab
+
 * prizes?
     stickers
     snacks?

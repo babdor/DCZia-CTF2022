@@ -1,0 +1,23 @@
+baseURL: "https://galaticunionofbots.com"
+title: GALATIC UNION OF ROBOTS
+theme: PaperMod
+
+params:
+  profileMode:
+    enabled: true
+    title: GALATIC UNION OF ROBOTS
+    subtitle: "If you are a human, speak HUMAN and enter"
+    imageUrl: https://github.com/dczia/dczia.github.io/raw/master/images/dczlogo.png
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/dczia"
+    - name: github
+      url: "https://github.com/dczia"
+
+menu:
+  main:
+    - identifier: join
+      name: Join the UNION!
+      url: /join
+      weight: 10
