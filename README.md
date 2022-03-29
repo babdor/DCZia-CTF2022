@@ -74,6 +74,8 @@ attachment might be fun to have the attachment be an image with a flag
 
 ```
 
+## robots.st
+
 # osint / scav hunt?
 
 ## hidden flags around space house.
@@ -113,3 +115,6 @@ put a flag in the mattermost or maybe zoom chat?
 grab a small lockable box with a pickalbe lock on it
 
 flag and candy inside
+
+
+## ROBOTO.ENCODO
