@@ -6,12 +6,12 @@ params:
   profileMode:
     enabled: true
     title: GALATIC UNION OF ROBOTS
-    subtitle: "If you are a human, speak HUMAN and enter"
+    subtitle: "If you are a human, speak HUMAN and enter!"
     imageUrl: https://github.com/dczia/dczia.github.io/raw/master/images/dczlogo.png
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/dczia"
+      url: "https://twitter.com/dczia505"
     - name: github
       url: "https://github.com/dczia"
 
