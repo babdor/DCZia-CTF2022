@@ -2,7 +2,7 @@
    $file = $_GET['file'];
    if(isset($file))
    {
-       include("pages/$file");
+       include("$file");
    }
    else
    {
