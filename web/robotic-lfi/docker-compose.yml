@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  web-server:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    restart: always
+    volumes:
+      - "./webfiles/:/var/www/html"
+    ports:
+      - 8080:80
+    
