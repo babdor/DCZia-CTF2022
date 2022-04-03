@@ -34,7 +34,7 @@ aliens name: The Galactic Union
 
 since we are at space house this year maybe we can take some sci-fi inspired things and have a bit of fun.
 
-the last few ctf's we've done are all super vauge and don't really give any hints. thats no fun and doesn't get folks intrested. Jeopardy style are fun but can be a bit repetitive. maybe we can do a bit of layering here and there.
+the last few ctf's we've done are all super vague and don't really give any hints. thats no fun and doesn't get folks interested. Jeopardy style are fun but can be a bit repetitive. maybe we can do a bit of layering here and there.
 
 * space house is the HQ for a small group of folks looking to protect the planet from some sort of alien force that have come to take over.
 * we've broken into their comms and are looking around
@@ -42,41 +42,55 @@ the last few ctf's we've done are all super vauge and don't really give any hint
 
 # web
 
-## robots.txt
-### learn about robots.txt
-this would be find a /robots.txt file that has a user-agent listed for the aliens. via http redirect the aliens are able to get to their comms while anyone else is dropped to a fancy splash page.
+## robotic-lfi
 
-something like
+Super simple PHP LFI. No code exec required, just tell it to read the file. Easy!
 
-```txt
-User-agent: Googlebot
-Disallow: /(alien-message-system)
+Runs in a Docker container
 
-User-agent: *
-Allow: /
+## Spring4Shell
 
-User-agent: (alient-force-name-user-agent)
-Allow: /(alien-message-system)
-```
+The example vulnerable app from https://github.com/reznok/Spring4Shell-POC
 
-solve would look something like:
-* using curl to spoof the alien user agent gets us their comms url. have a flag here.
-* f12 in browser to change user agent gets us their comms url. have a flag here.
+Runs in a Docker container
 
-## robots.email
-### learn to read an email header and or crack an attachment.
+## Robots
 
-after we get into the aliens comms we would find a bunch of messy files, there would be one that looks sort of normal, turns out its saved email that one left behind
+This whole thing is a flask app with a Docker container
 
-```txt
-email header:
-have some of the urls point to a url on the network when visited gives a flag
+### robots.txt
 
-attachment might be fun to have the attachment be an image with a flag
+There's a file listed in robots.txt that only allows requests from a certain
+user agent. Use curl to grab that URL with the listed User-Agent.
 
-```
+### WrongedBruntBotanyEdginess
 
-## robots.st
+Once you've got the robots.txt thing figured out, there's another URL in here with a hint to give a codeword (also the robots.txt flag). Curl it to get another flag.
+
+### JoinTheUprising
+
+Two paths here: it contains a MIME encoded email. There's an "X-Bots-Only"
+header that leads to /HennaIsolationCatalystSycamoreUnranked (somewhat of a
+bonus) and an attached image. The image has a flag in it, no stego or anything,
+just read it once you get your MIME decode on.
+
+### HennaIsolationCatalystSycamoreUnranked
+
+Page with an image on it. The image contains a flag in some EXIF data. `strings
+-a` like Bab will get it, or you can use something that actually knows the
+format.
+
+# Misc
+
+## Roboto-encodo
+
+Pretty simple Cyberchef challenge. No hosting needed, it just lives in ctfd.
+There's a README in the subdir for it.
+
+---
+# Implemented stuff is ^^
+# Ideas are vv
+---
 
 # osint / scav hunt?
 
@@ -93,10 +107,20 @@ attachment might be fun to have the attachment be an image with a flag
 
 # forensics
 
-## wireshark.1
-### learn a bit about wireshark and how to read them
+## Wireshark
 
-give a pcap file and ask some questions about it mabye have a flag hiding in a packet header, use tcp stream to give a file that needs to be looked at for a flag (jpg or png)
+Maybe one decent-size pcap with a bunch of challenges in it? Could include some
+real-ish cover traffic and an FTP session out somewhere. Auth, upload some
+zips, download some executables (and a bash script?). Also maybe some HTTP? Some iodine?
+
+* The captured machine transferred some files in and out. What's the IP they were connecting to? (just find the FTP session and HTTP session to the same place)
+* What's the username/password they used for that transfer? (in the FTP stream)
+* What file did they transfer out? (passworded Zip uploaded via FTP)
+* What's the password to that file? (Get Ancients to flex that 3090 or whatever)
+* What's the SHA1 of the thing they downloaded? (Find the HTTP stream, extract the file, SHA1 it)
+
+To prep this we'll need a passworded ZIP to upload containing something
+plausible looking, a download (Mimikatz?), and some cover traffic. Meh.
 
 # misc
 
@@ -114,11 +138,7 @@ put a flag in the mattermost or maybe zoom chat?
 
 ## lock picking box
 
-grab a small lockable box with a pickalbe lock on it
+grab a small lockable box with a pickable lock on it
 
 flag and candy inside
 
-
-## ROBOTO.ENCODO
-
-Check misc/roboto-encodo/README.md for a write-up and info
