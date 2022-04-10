@@ -1,6 +1,9 @@
 # DCZia-CTF2022
 All things CTF for Ziacon 2022
 ---
+
+CTFd: http://ctfd.virus-bucket.biz:8000 (will be https later)
+
 * todo:
     hosting of files / sites, do we want to toss into the cloud or localhost (we have my small server)
 
