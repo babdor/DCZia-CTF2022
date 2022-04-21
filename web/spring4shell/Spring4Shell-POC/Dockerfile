@@ -2,6 +2,7 @@ FROM lunasec/tomcat-9.0.59-jdk11
 
 ADD src/ /helloworld/src
 ADD pom.xml /helloworld
+ADD flag.txt /
 
 #  Build spring app
 
