@@ -8,7 +8,7 @@ nation nuke museum might be fun
 
 meow wolf?
 
-train station next door to the juan cocteau cinema
+train station next door to the jean cocteau cinema
 
 maybe something to do with george??
 
