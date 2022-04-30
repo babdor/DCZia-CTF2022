@@ -4,29 +4,6 @@ All things CTF for Ziacon 2022
 
 CTFd: http://ctfd.virus-bucket.biz:8000 (will be https later)
 
-* todo:
-    hosting of files / sites, do we want to toss into the cloud or localhost (we have my small server)
-
-    ctfd? https://github.com/CTFd/CTFd
-    https://www.hetzner.com/dedicated-rootserver
-    https://fly.io/docs/getting-started/python/
-    https://github.com/juice-shop/juice-shop as a backup
-    
-
-    have a ctfj like instance for folks to use who don't have a vm set up?
-
-    make sure to have this all do-able via ubuntu. kali is messy.
-
-    hugo site is sort of done. `hugo server -D` to have a look at it. We might need to figure out DNS for real or move to aws. Unsure of the time it would take to do either -bab
-
-* prizes?
-    stickers
-    snacks?
-    lock picking set?
-* art?
-    might ask luna for some art?
-
-
 ---
 3-5 challs per topic maybe a some extra ones hiding here in there where they stop and talk to @bab for extra fun prizes
 
@@ -71,65 +48,35 @@ Page with an image on it. The image contains a flag in some EXIF data. `strings
 -a` like Bab will get it, or you can use something that actually knows the
 format.
 
-# Misc
+# misc
 
 ## Roboto-encodo
 
 Pretty simple Cyberchef challenge. No hosting needed, it just lives in ctfd.
 There's a README in the subdir for it.
 
+# forensics
+
+## Robotic magic
+This is a small challange to take a quick look at magic bytes in a file
+
 ---
 # Implemented stuff is ^^
 # Ideas are vv
 ---
 
-# osint / scav hunt?
+# osint
 
-## hidden flags around space house.
-* one in the spaceship in the back
-* one the name of the person who did the art?
-* one on the small shelf in the dining room
-* hide on under some of the river rocks in the back yard
-* 
+## dragon on the rails
 
-# rev / pwn
+Have folks find a neat train that leaves from Santa Fe
 
+## buffalo island
 
+Find an island of buffalos!
 
 # forensics
 
-## Wireshark
-
-Maybe one decent-size pcap with a bunch of challenges in it? Could include some
-real-ish cover traffic and an FTP session out somewhere. Auth, upload some
-zips, download some executables (and a bash script?). Also maybe some HTTP? Some iodine?
-
-* The captured machine transferred some files in and out. What's the IP they were connecting to? (just find the FTP session and HTTP session to the same place)
-* What's the username/password they used for that transfer? (in the FTP stream)
-* What file did they transfer out? (passworded Zip uploaded via FTP)
-* What's the password to that file? (Get Ancients to flex that 3090 or whatever)
-* What's the SHA1 of the thing they downloaded? (Find the HTTP stream, extract the file, SHA1 it)
-
-To prep this we'll need a passworded ZIP to upload containing something
-plausible looking, a download (Mimikatz?), and some cover traffic. Meh.
-
-# misc
-
-## cafe K
-### visit cafe K for a drink and chat, maybe he'll give you a flag?
-
-have Will give folks who get a drink a flag
-
-this is just a fun way for some interaction and tasty coffee 
-
-## mattermost / zoom flag
-
-put a flag in the mattermost or maybe zoom chat?
-
-
-## lock picking box
-
-grab a small lockable box with a pickable lock on it
-
-flag and candy inside
+## Robotic magic
+This is a small challange to take a quick look at magic bytes in a file
 
