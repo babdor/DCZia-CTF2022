@@ -31,18 +31,6 @@ CTFd: http://ctfd.virus-bucket.biz:8000 (will be https later)
 3-5 challs per topic maybe a some extra ones hiding here in there where they stop and talk to @bab for extra fun prizes
 
 
-lets get a little theme going.
-
-aliens name: The Galactic Union
-
-since we are at space house this year maybe we can take some sci-fi inspired things and have a bit of fun.
-
-the last few ctf's we've done are all super vague and don't really give any hints. thats no fun and doesn't get folks interested. Jeopardy style are fun but can be a bit repetitive. maybe we can do a bit of layering here and there.
-
-* space house is the HQ for a small group of folks looking to protect the planet from some sort of alien force that have come to take over.
-* we've broken into their comms and are looking around
-* we found they might be advanced but their security is a bit suspect.
-
 # web
 
 ## robotic-lfi
