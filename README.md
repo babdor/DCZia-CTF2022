@@ -60,11 +60,6 @@ There's a README in the subdir for it.
 ## Robotic magic
 This is a small challange to take a quick look at magic bytes in a file
 
----
-# Implemented stuff is ^^
-# Ideas are vv
----
-
 # osint
 
 ## dragon on the rails
@@ -74,9 +69,3 @@ Have folks find a neat train that leaves from Santa Fe
 ## buffalo island
 
 Find an island of buffalos!
-
-# forensics
-
-## Robotic magic
-This is a small challange to take a quick look at magic bytes in a file
-
